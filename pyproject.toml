@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "spt"
+version = "0.1.0"
+description = "Implements simple pose tracking with detection, tracking and keypoint detection"
+authors = ["jmojoo <jaymojew@gmail.com>"]
+license = "GPL3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ultralytics-yolov8 = "^0.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

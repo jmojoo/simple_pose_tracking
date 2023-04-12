@@ -1,0 +1,4 @@
+data/*.mov
+data/*.mp4
+*.pyc
+*.pt

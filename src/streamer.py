@@ -17,10 +17,7 @@ class Streamer:
             self.vid_cap.read()
         success, frame = self.vid_cap.read()
         if not success:
-            print(
-                f"{self.cam_id}: {self.rule_name}: Finished streaming. "
-                "Releasing resources..."
-            )
+            print("Finished streaming. " "Releasing resources...")
             self.vid_cap.release()
             return None
         else:

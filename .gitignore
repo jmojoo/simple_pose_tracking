@@ -1,4 +1,6 @@
 data/*.mov
 data/*.mp4
+data/*_model
 *.pyc
 *.pt
+scratch.py

@@ -1,8 +1,8 @@
 import argparse
 
-from src import Streamer, Tracker
-from src.detectors import YOLODetector
-from utils import VideoViewer
+from utils import VideoViewer  # isort: skip
+from src import Streamer, Tracker  # isort: skip depends on VideoViewer
+from src.detectors import YOLODetector  # isort: skip depends on Streamer
 
 
 def main(args):
